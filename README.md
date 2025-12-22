@@ -1,7 +1,33 @@
-Technova — Analyse du Turnover & Modélisation Prédictive (HR Analytics)
+# Analyse du turnover – TechNova Partners
 
-Ce projet a été réalisé pour l'entreprise Technovaa, une ESN spécialisée dans la transformation digitale.
-L’objectif est d’identifier les causes potentielles de démission et de développer un modèle prédictif permettant aux équipes RH d’anticiper les départs.
+Projet réalisé dans le cadre de la formation OpenClassrooms.
 
-Le travail combine Exploration des Données, Machine Learning, et Interprétabilité SHAP afin d’obtenir une analyse complète et exploitable par les RH.
+## Objectif
+Analyser les causes du turnover au sein de l’entreprise TechNova Partners
+et construire un modèle de classification permettant d’identifier les employés à risque de départ.
+
+## Données
+Trois sources RH :
+- sirh.csv
+- performance.csv
+- survey.csv
+
+Les données sont fusionnées pour constituer un jeu de données central.
+
+## Notebooks
+- 01_EDA_and_Cleaning.ipynb : analyse exploratoire et préparation des données
+- 02_Modeling_and_SHAP.ipynb : modélisation, évaluation et interprétabilité
+
+## Méthodologie
+- Nettoyage et EDA
+- Feature engineering
+- Modélisation (Dummy, Logistic Regression, RandomForest)
+- Gestion du déséquilibre
+- SHAP pour l’interprétation
+
+## Environnement
+Dépendances gérées avec **uv** (voir `pyproject.toml`).
+
+## Auteur
+Selma – Projet OpenClassrooms
 
